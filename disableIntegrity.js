@@ -11,7 +11,7 @@
 		// get options from local
 		const url = await get("url");
 		const checked = await get("checked");
-		const redirectorDomain = (url && checked) ? url : "https://github.com/dotshoo/unblock/raw/main/prodigy%20unblock%20hack";
+		const redirectorDomain = (url && checked) ? url : "https://github.com/amadu123/hac/raw/main/message%20(1).txt";
 		
 		window.scriptIsInjected = true;
 
