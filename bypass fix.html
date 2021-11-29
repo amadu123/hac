@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comp Sci Project</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<p class="titleSet" style="margin-top: 20px !important;  margin-bottom: 50px !important; text-align: center !important; font-size: 24px !important; ">Comp Sci Project</p>
+<div style='text-align:center;'>Input URL: 
+<input class='inputField' name='url' type='text' id='url' placeholder='https://.....'>
+<button onclick='lookUpStats()'>Search</button></div>
+<p id="placeUseVar"></p>
+<div id="contents"></div>
+</body>
+<script>
+function lookUpStats () {
+	url = document.getElementById('url').value;
+	console.log(url+"");
+	placeUseVar = "<span style='font-weight:bold;'>Testing url: </span>" + "<span style='color: #32CD32;'>" + (url+"") + "</span>";
+	document.getElementById("placeUseVar").innerHTML = placeUseVar;
+	var url = 'https://bay-tab.herokuapp.com/main/' + url;
+	$.ajax({ url: url, success: function(data) { 
+		alert("DATA LOADED");
+		document.getElementById("contents").innerHTML = data;
+	}});
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
