@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         Shellshock.io Adblocker v0.1
+// @namespace    http://
+// @version      0.1
+// @description  A simple ad-blocker for shellshockers. Note: May not work on Brave Browser.
+// @author       NinjaUser
+// @match        https://www.eggcombat.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    document.getElementById('gameAdContainer').remove();
+    document.getElementById('videoAdContainer').remove();
+    document.getElementById('ad_unit').remove();
+})();
