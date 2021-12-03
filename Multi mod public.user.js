@@ -3,7 +3,7 @@
 // @namespace      https://www.youtube.com/channel/UCTG2PIyB2Y8oSBqNduqWJ0A
 // @version        Private beta v1
 // @description    Stacked Insta, Good Heal, Anti Clown Anti-invisible buildings delete button for river servers PREFIX = !   search for: PREFIX for all
-// @author         DEADHACKS & HackPD
+// @author         DEADHACKS & HackPD & Idioticc#0720
 // @match          *://moomoo.io/*
 // @match          none
 // @match          *://*sandbox.moomoo.io/*
