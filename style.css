@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Flow+Circular&family=Krub:wght@200&family=Open+Sans:wght@300&family=Questrial&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Krub:wght@200&family=Open+Sans:wght@300&family=Questrial&display=swap');
+
+
+body {
+  font-family: Open Sans;
+  background-color: #2C2F33;
+}
+
+h1 {
+margin: auto;
+font-family: Flow Circular;
+color: grey;;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  font-family: Open Sans;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+input {
+  margin: 20px;
+  font-size: 30px;
+  width: 950px;
+  font-family: Open Sans;
+  color: white;
+  border-radius: 10px;
+  background-color: grey;
+}
