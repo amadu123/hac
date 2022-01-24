@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Multi mod V2 | Anti-invisible buildings, op insta, P auto km, AND MORE!!
 // @namespace      https://sites.google.com/view/moohack/home
-// @version        3.0
+// @version        3.2
 // @description    Stacked Insta, Good Heal, Anti-invisible buildings, T for one frame, R for op insta
 // @author         DEADHACKS & HackPD
 // @match          *://moomoo.io/*
